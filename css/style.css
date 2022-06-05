@@ -1175,6 +1175,17 @@ textarea.form-input {
   .career-section {
     margin: 30px 0 40px;
   }
+  .breadcrumb-sec .page-head {
+    font-size: 24px;
+  }
+  ol.breadcrumb li a,
+  ol.breadcrumb li span,
+  ol.breadcrumb li {
+    font-size: 14px;
+  }
+  /* ol.breadcrumb{
+    display: none;
+  } */
 }
 
 input[type="file"] {
@@ -1379,6 +1390,11 @@ html[dir="rtl"] .branches-link i.la-phone {
 @media (max-width: 767px) {
   .branches-section {
     padding: 20px 0 40px;
+  }
+  .branches-content {
+    max-width: 100%;
+    margin: 0;
+    margin-bottom: 20px;
   }
   .branches-box {
     display: flex;
