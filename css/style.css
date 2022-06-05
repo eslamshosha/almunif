@@ -1232,12 +1232,9 @@ input[type="file"] {
   gap: 50px 20px;
 }
 .product-ancor {
+  display: inline-block;
   width: 100%;
   overflow: hidden;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
   position: relative;
   font-weight: 600;
   font-size: 20px;
@@ -1343,6 +1340,7 @@ html[dir="rtl"] .branches-name {
 .branches-link i {
   margin-inline-end: 20px;
   font-size: 24px;
+  margin-top: -2px;
   width: 24px;
   display: flex;
   justify-content: center;
