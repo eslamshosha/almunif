@@ -757,7 +757,8 @@ html[dir="rtl"] .footer-accordion.active:after {
     margin-left: 0;
   }
   .big-menu li {
-    margin-bottom: 10px;
+    padding: 0;
+    margin-bottom: 20px;
   }
   .chevron-down {
     line-height: unset;
