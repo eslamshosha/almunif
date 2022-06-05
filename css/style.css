@@ -703,7 +703,7 @@ html[dir="rtl"] .footer-accordion.active:after {
     opacity: 0;
     visibility: hidden;
     clip-path: circle(10.9% at 16% 16%);
-    background-color: rgba(203, 31, 37, 0.949);
+    background-color: rgba(203, 31, 37, 0.97);
     transition: 0.4s;
     z-index: 200;
     overflow-y: auto;
