@@ -196,7 +196,7 @@ html[dir="rtl"] .nav-header li a {
   font-size: 14px;
   font-family: "rb";
   font-weight: 400;
-  text-transform: uppercase;
+  text-transform: capitalize;
   transition: all 0.3s ease-in-out;
 }
 html[dir="rtl"] .lang-ancor {
