@@ -1403,7 +1403,8 @@ html[dir="rtl"] .branches-link i.la-phone {
   align-items: center;
   justify-content: center;
   background-color: #fafafa;
-  padding: 20px;
+  padding: 21px;
+  max-width: 210px;
 }
 .branches-box figure {
   margin-bottom: 0;
