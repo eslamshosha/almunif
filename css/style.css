@@ -1398,12 +1398,19 @@ html[dir="rtl"] .branches-link i.la-phone {
 .branches-qr {
   margin-inline-end: 30px;
 }
+.branches-qr figure{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fafafa;
+  padding: 20px;
+}
 .branches-box figure {
   margin-bottom: 0;
 }
 .branches-img-cont {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
 }
 @media (max-width: 767px) {
   .branches-section {
@@ -1421,9 +1428,14 @@ html[dir="rtl"] .branches-link i.la-phone {
     justify-content: center;
     padding: 20px;
   }
-
+  .branches-img-cont{
+    align-items: center;
+  }
   .branches-qr {
     margin-inline-end: 20px;
+  }
+  .branches-qr figure{
+    padding: 15px;
   }
   .branches-map,
   .branches-map figure,
